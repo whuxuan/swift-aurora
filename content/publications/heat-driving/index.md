@@ -1,5 +1,5 @@
 ---
-title: "Steering Adaptation: Heat, Driver Performance, and Cost-Sharing in the Heavy-Duty Transportation Industry"
+title: "Steering Adaptation: Firm, Labor Contracts, and Driver Responses to Heat in the Trucking Industry"
 
 authors:
 - Wenzhi Dave Ding 
@@ -9,19 +9,18 @@ authors:
 
 publication_types: ["working-paper"]
 publication: '*Working Paper*'
-date: 2025-05-09
+date: 2025-10-01
 
-draft: false
 featured: false
 
 abstract:  
 
 tags:
-- Heat
-- Dangerous Driving
-- Traffic Satefy
+- Extreme Heat
 - Adaptation
-- Cost-Sharing Schemes
+- Asset Ownership
+- Trucking
+- Moral Hazard
 
 links:
 - name: Abstract
