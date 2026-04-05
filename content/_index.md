@@ -20,7 +20,7 @@ sections:
         As an applied economist, my research spans environmental, energy, and development economics. The central theme of his work is to understand the impacts of climate change, environmental risks, and energy system transitions, as well as the roles of policy, technological change, and behavioral adaptation in addressing these challenges. My recent work focuses on:
         * Energy transition, electrification, and policy designs for the net-zero emissions target
         * Climate change mitigation, adaptation, and resilience
-        * Welfare impacts of technology upgrades and infrastructure investments in the electricity sector
+        * Welfare impacts of technology and infrastructure investments in the electricity sector
         * Information, risk perception, and household behavior
 
         I received my Ph.D. in Environmental Economics from Duke University. Prior to Duke, I was a research associate at the Environmental Research Center of Duke Kunshan University. I received my B.A. in Economics and B.Sc. in Mathematics from Wuhan University.
