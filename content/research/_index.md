@@ -12,7 +12,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Working Paper
+      title: Working Papers
       count: 0
       text: ''
       filters:
