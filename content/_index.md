@@ -44,7 +44,7 @@ sections:
           filename: 'resume-bg.jpg'
           size: cover
           position: center
-          parallax: false
+          parallax: true
         css_class: 'resume-bg'   # ← add this
 
       spacing:
