@@ -49,7 +49,7 @@ sections:
         publication_type: in-progress
         exclude_featured: false
     design:
-      view: citation
+      view: compact
       spacing:
         padding: ['3rem', '0', '3rem', '0']
 
