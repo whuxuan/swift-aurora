@@ -41,7 +41,7 @@ sections:
       #     enable: true
       background:
         image:
-          filename: 'resume-bg.jpg'
+          filename: 'resume-bg.png'
           size: cover
           position: center
           parallax: true
