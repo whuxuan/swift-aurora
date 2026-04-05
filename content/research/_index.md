@@ -22,7 +22,7 @@ sections:
     design:
       view: citation
       spacing:
-        padding: ['2rem', '0', '2rem', '0']
+        padding: ['3rem', '0', '3rem', '0']
   - block: collection
     content:
       title: Publications
@@ -35,7 +35,7 @@ sections:
     design:
       view: citation
       spacing:
-        padding: ['2rem', '0', '2rem', '0']
+        padding: ['3rem', '0', '3rem', '0']
   - block: collection
     content:
       title: Works in Progress
@@ -48,7 +48,7 @@ sections:
     design:
       view: citation
       spacing:
-        padding: ['2rem', '0', '2rem', '0']
+        padding: ['3rem', '0', '3rem', '0']
 
 
 ---
