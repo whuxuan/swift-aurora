@@ -22,7 +22,7 @@ links:
   - name: MIT CEEPR Working Paper  
     url: 'https://ceepr.mit.edu/workingpaper/can-digitalization-improve-public-services-evidence-from-innovation-in-energy-management/'
 
-  tags:
+tags:
 - Digitalization
 - Public Services
 - Energy Management
