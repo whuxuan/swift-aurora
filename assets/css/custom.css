@@ -2,12 +2,12 @@
   font-size: 1.1rem;
 }
 
-a {
+:not(nav) a:not(.nav-link):not(.navbar-brand) {
   color: #00539B;
   text-decoration: none;
 }
 
-a:hover {
+:not(nav) a:not(.nav-link):not(.navbar-brand):hover {
   color: #B5B5B5;
   text-decoration: underline;
 }
