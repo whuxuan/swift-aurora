@@ -4,7 +4,7 @@ hugoblox:
     name: Custom
     version: 1.0.0
   families:
-    heading: Plus Jakarta Sans
+    heading: Inter
     body: Source Sans 3
     code: Source Code Pro
   weights:

@@ -29,7 +29,7 @@ section:has(.view-citation) .flex.flex-col.items-center.max-w-prose {
   padding-right: 1.5rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1072px) {
   section:has(.view-citation) .flex.flex-col.items-center.max-w-prose {
     padding-left: 0;
     padding-right: 0;
