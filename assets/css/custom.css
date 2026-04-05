@@ -4,10 +4,12 @@
 
 a {
   color: #00539B;
+  text-decoration: none;
 }
 
 a:hover {
   color: #B5B5B5;
+  text-decoration: underline;
 }
 
 .navbar-brand {
