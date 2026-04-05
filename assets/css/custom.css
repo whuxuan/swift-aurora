@@ -2,6 +2,14 @@
   font-size: 1.1rem;
 }
 
+a {
+  color: #00539B;
+}
+
+a:hover {
+  color: #B5B5B5;
+}
+
 .navbar-brand {
   font-size: 1.25rem;
   margin-left: 2rem;
