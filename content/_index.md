@@ -36,9 +36,17 @@ sections:
         interests: 'Research Interests'
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      # background:
+      #   gradient_mesh:
+      #     enable: true
       background:
-        gradient_mesh:
-          enable: true
+        image:
+          filename: 'resume-bg.jpg'
+          size: cover
+          position: center
+          parallax: false
+        css_class: 'resume-bg'   # ← add this
+
       spacing:
         padding: ['0', '0', '0', '0']
 
