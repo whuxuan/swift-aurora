@@ -442,17 +442,17 @@
                 </div>
                 <div class="flex-1 flex-grow">
                   {{ if $degree }}
-                  <p class="text-sm font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                  <p class="text-base font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                     {{ $degree }}
                   </p>
                   {{ end }}
                   {{ if $institution }}
-                    <p class="text-gray-700 dark:text-gray-300 text-xs">{{ $institution }}</p>
+                    <p class="text-gray-700 dark:text-gray-300 text-sm">{{ $institution }}</p>
                   {{ end }}
                   {{ if $start }}
-                    <p class="text-gray-500 dark:text-gray-400 text-xs">{{ $start }}{{ if $end }} - {{ $end }}{{ end }}</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm">{{ $start }}{{ if $end }} - {{ $end }}{{ end }}</p>
                   {{ else if $year }}
-                    <p class="text-gray-500 dark:text-gray-400 text-xs">{{ $year }}</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm">{{ $year }}</p>
                   {{ end }}
                 </div>
               </div>
