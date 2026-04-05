@@ -35,9 +35,11 @@
 {{ end }}
 {{ range $source_pages }}
   {{ range .Params.tags }}
-    {{ $tag := . }}
-    {{ $current := index $tag_counts $tag | default 0 }}
-    {{ $tag_counts = merge $tag_counts (dict $tag (add $current 1)) }}
+    {{ $tag := strings.TrimSpace (printf "%v" .) }}
+    {{ if $tag }}
+      {{ $current := index $tag_counts $tag | default 0 }}
+      {{ $tag_counts = merge $tag_counts (dict $tag (add $current 1)) }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
