@@ -6,12 +6,12 @@ body {
   font-size: 1.1rem;
 }
 
-:not(nav) a:not(.nav-link):not(.navbar-brand):not(.hb-attachment-link) {
+:not(nav) a:not(.nav-link):not(.navbar-brand):not(.hb-attachment-link):not(.no-underline):not(.bg-neutral-300) {
   color: #00539B;
   text-decoration: none;
 }
 
-:not(nav) a:not(.nav-link):not(.navbar-brand):not(.hb-attachment-link):hover {
+:not(nav) a:not(.nav-link):not(.navbar-brand):not(.hb-attachment-link):not(.no-underline):not(.bg-neutral-300):hover {
   color: #B5B5B5;
   text-decoration: underline;
 }
