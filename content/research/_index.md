@@ -13,6 +13,7 @@ sections:
   - block: collection
     content:
       title: Working Paper
+      count: 0
       text: ''
       filters:
         folders:
@@ -26,6 +27,7 @@ sections:
   - block: collection
     content:
       title: Publications
+      count: 0
       text: ''
       filters:
         folders:
@@ -39,6 +41,7 @@ sections:
   - block: collection
     content:
       title: Works in Progress
+      count: 0
       text: ''
       filters:
         folders:
