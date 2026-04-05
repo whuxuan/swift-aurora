@@ -10,39 +10,43 @@
 {{ with index $content "count" }}{{ $count = int . }}{{ end }}
 
 {{/* Filters */}}
-{{ $folders := slice }}
-{{ $pub_type := "" }}
 {{ $filters := index $content "filters" }}
-{{ if reflect.IsMap $filters }}
-  {{ $folders_raw := index $filters "folders" }}
-  {{ if reflect.IsSlice $folders_raw }}
-    {{ $folders = $folders_raw }}
-  {{ end }}
-  {{ with index $filters "publication_type" }}
-    {{ $pub_type = . }}
+{{ if not (reflect.IsMap $filters) }}{{ $filters = dict }}{{ end }}
+
+{{/* Start with all regular pages */}}
+{{ $query := where site.Pages "Kind" "page" }}
+
+{{/* Filter by folders (Section) */}}
+{{ $folders_raw := index $filters "folders" }}
+{{ $folders := slice }}
+{{ if reflect.IsSlice $folders_raw }}
+  {{ range $folders_raw }}
+    {{ $folder := strings.TrimSpace (printf "%v" .) }}
+    {{ if $folder }}{{ $folders = $folders | append $folder }}{{ end }}
   {{ end }}
 {{ end }}
-
-{{/* Collect pages */}}
-{{ $pages := site.Pages }}
 {{ if gt (len $folders) 0 }}
-  {{ $pages = slice }}
-  {{ range $folders }}
-    {{ $pages = $pages | append (where site.Pages "Section" .) }}
-  {{ end }}
+  {{ $query = where $query "Section" "in" $folders }}
 {{ end }}
 
-{{/* Filter by publication_type */}}
+{{/* Filter by publication_type via taxonomy */}}
+{{ $pub_type := "" }}
+{{ $pub_type_raw := index $filters "publication_type" }}
+{{ if eq (printf "%T" $pub_type_raw) "string" }}
+  {{ $pub_type = strings.TrimSpace $pub_type_raw }}
+{{ end }}
 {{ if $pub_type }}
-  {{ $pages = where $pages "Params.publication_type" $pub_type }}
+  {{ with site.GetPage (printf "publication_types/%s" $pub_type) }}
+    {{ $query = $query | intersect .Pages }}
+  {{ end }}
 {{ end }}
 
 {{/* Sort by date descending */}}
-{{ $pages = sort $pages "Date" "desc" }}
+{{ $query = sort $query "Date" "desc" }}
 
 {{/* Apply count limit */}}
 {{ if gt $count 0 }}
-  {{ $pages = first $count $pages }}
+  {{ $query = first $count $query }}
 {{ end }}
 
 <div class="flex flex-col items-center px-6">
@@ -51,7 +55,7 @@
     <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ . }}</div>
     {{ end }}
     <div class="flex flex-col">
-      {{ range $pages }}
+      {{ range $query }}
         {{ partial "views/citation" (dict "item" .) }}
       {{ end }}
     </div>
