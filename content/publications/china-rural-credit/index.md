@@ -7,8 +7,8 @@ authors:
 - Xingchen Chen 
   
 publication_types: ["in-progress"]
-publication: '*Works in Progress*'
-date: 2025-07-15
+publication:  
+date: 
 
 featured: false
 
