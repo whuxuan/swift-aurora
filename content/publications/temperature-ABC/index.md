@@ -1,5 +1,5 @@
 ---
-title: "Turning Up the Heat: Electricity Infrastructure and Climate Adaptation Among the Poor"
+title: "Climate Adaptation in Distorted Electricity Markets"
 
 authors:
 - Husnain Ahmad
@@ -11,19 +11,20 @@ authors:
 
 publication_types: ["Working-paper"]
 publication: '*Working Paper*'
-date: 2025-01-01
+date: 2026-03-20
 
 
 featured: false
 
 
-abstract: "In this paper, we investigate household adaptive responses to extreme heat and the role of electricity infrastructure upgrades in Karachi, Pakistan, one of the ten countries most severely affected by climate-related disasters. Specifically, we ask: How do poor households adjust their electricity usage in response to high temperatures? Do infrastructure upgrades, which were designed to reduce electricity theft, affect electricity usage and losses differently under different temperatures?  What are the distributional consequences of the infrastructure improvements on households' ability to adapt to extreme heat?"
+abstract: "Rising temperatures increase demand for electricity-intensive cooling, yet in many low- and middle-income countries individuals are making adaptation decisions in electricity markets characterized by highly subsidized prices, weak enforcement of bill payment, and high distribution losses. We study household response to extreme heat in Karachi, Pakistan and find that informal electricity consumption —commonly characterized as theft or unbilled consumption—serves as an important adaptation mechanism for poor households. As temperatures rise, households increase both formal (billed) and informal (unbilled) electricity consumption, but the latter is more responsive to increasing temperatures. Heat shocks therefore expand a pre-existing fiscal distortion by increasing losses when system demand peaks. We examine the rollout of theft-resistant cables, which raise the effective cost of consuming cooling services. These cables reduced unbilled consumption across temperature ranges and the reduced cooling was associated with an increase in household health expenditures. At the same time, industrial and commercial consumers benefit from theft reductions and the resulting reliability improvements. These findings illustrate the complex tradeoffs between the adaption of poor households and broader society."
 
 tags:
-- Heat
 - Electricity
+- Heat
 - Infrastructure 
 - Adaptation
+- Losses
 
 links:
 - name: Abstract
