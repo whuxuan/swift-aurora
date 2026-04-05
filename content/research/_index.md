@@ -22,7 +22,7 @@ sections:
           - publications
     design:
       spacing:
-        padding: ['3rem', '0', '1rem', '0']
+        padding: ['3rem', '0', '2rem', '0']
   - block: paper-list
     content:
       title: Working Papers
@@ -32,7 +32,7 @@ sections:
         publication_type: working-paper
     design:
       spacing:
-        padding: ['3rem', '0', '3rem', '0']
+        padding: ['3rem', '0', '2rem', '0']
   - block: paper-list
     content:
       title: Publications
@@ -42,17 +42,17 @@ sections:
         publication_type: article-journal
     design:
       spacing:
-        padding: ['3rem', '0', '3rem', '0']
+        padding: ['3rem', '0', '2rem', '0']
   - block: paper-list
     content:
-      title: Works in Progress
+      title: Selected Works in Progress
       filters:
         folders:
           - publications
         publication_type: in-progress
     design:
       spacing:
-        padding: ['3rem', '0', '3rem', '0']
+        padding: ['3rem', '0', '2rem', '0']
 
 
 ---
