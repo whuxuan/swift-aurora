@@ -6,12 +6,12 @@
 <div class="pub-list-item view-citation" style="margin-bottom: 1.5rem">
 
   {{/* Row 1: Title */}}
-  <div>
+  <div style="line-height: 1.3">
     <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
   </div>
 
   {{/* Row 2: Authors (Year) */}}
-  <div>
+  <div style="margin-top: 0.4rem; line-height: 1.3">
     <span class="article-metadata li-cite-author">
       {{ partial "page_metadata_authors" $item }}
     </span>
@@ -20,7 +20,7 @@
 
   {{/* Row 3: Journal */}}
   {{ if or $item.Params.publication_short $item.Params.publication }}
-  <div>
+  <div style="margin-top: 0.4rem; line-height: 1.3">
     <em>
       {{ if $item.Params.publication_short }}
         {{- $item.Params.publication_short | markdownify -}}
