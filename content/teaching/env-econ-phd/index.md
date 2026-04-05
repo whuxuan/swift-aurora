@@ -1,6 +1,6 @@
 ---
 title: Environmental and Resource Economics
-date: 2025-09-01
+date: 2025-09-03
 # links:
 #   - type: site
 #     url: https://github.com/pandas-dev/pandas
