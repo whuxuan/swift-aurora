@@ -9,7 +9,7 @@ authors:
 
 publication_types: ["article-journal"]
 publication: '*Journal of Environmental Economics and Management, Accepted*'
-date: 2026-04-05
+date: 2026-04-03
 
 featured: false
 

@@ -7,8 +7,8 @@ authors:
   
 
 publication_types: ["in-progress"]
-publication: '*Works in Progress*'
-date: 2023-02-01
+publication:  
+date:  
 
 featured: false
 
