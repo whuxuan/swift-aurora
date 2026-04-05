@@ -10,6 +10,19 @@ design:
   spacing: '1rem'
 
 sections:
+  - block: tag-cloud
+    content:
+      title: Topics
+      taxonomy: tags
+      count: 0
+      font_size_min: 0.8
+      font_size_max: 2.0
+      filters:
+        folders:
+          - publications
+    design:
+      spacing:
+        padding: ['3rem', '0', '1rem', '0']
   - block: collection
     content:
       title: Working Papers

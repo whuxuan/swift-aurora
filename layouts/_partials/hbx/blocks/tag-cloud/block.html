@@ -1,0 +1,90 @@
+{{/* Tag Cloud Block */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+
+{{/* Config */}}
+{{ $title := index $content "title" | default "Topics" }}
+{{ $taxonomy := index $content "taxonomy" | default "tags" }}
+{{ $count := 0 }}
+{{ with index $content "count" }}{{ $count = int . }}{{ end }}
+{{ $font_size_min := 0.8 }}
+{{ with index $content "font_size_min" }}{{ $font_size_min = float . }}{{ end }}
+{{ $font_size_max := 2.0 }}
+{{ with index $content "font_size_max" }}{{ $font_size_max = float . }}{{ end }}
+
+{{/* Build tag frequency map — optionally filtered by folders */}}
+{{ $folders := slice }}
+{{ $filters := index $content "filters" }}
+{{ if reflect.IsMap $filters }}
+  {{ $folders_raw := index $filters "folders" }}
+  {{ if reflect.IsSlice $folders_raw }}
+    {{ $folders = $folders_raw }}
+  {{ end }}
+{{ end }}
+
+{{ $tag_counts := dict }}
+{{ $source_pages := site.Pages }}
+{{ if gt (len $folders) 0 }}
+  {{ $source_pages = slice }}
+  {{ range $folders }}
+    {{ $folder := . }}
+    {{ $source_pages = $source_pages | append (where site.Pages "Section" $folder) }}
+  {{ end }}
+{{ end }}
+{{ range $source_pages }}
+  {{ range .Params.tags }}
+    {{ $tag := . }}
+    {{ $current := index $tag_counts $tag | default 0 }}
+    {{ $tag_counts = merge $tag_counts (dict $tag (add $current 1)) }}
+  {{ end }}
+{{ end }}
+
+{{/* Convert to a sortable slice */}}
+{{ $terms := slice }}
+{{ range $tag, $c := $tag_counts }}
+  {{ $tag_page := site.GetPage (printf "/tags/%s" ($tag | urlize)) }}
+  {{ if $tag_page }}
+    {{ $terms = $terms | append (dict "title" $tag "count" $c "url" $tag_page.RelPermalink) }}
+  {{ end }}
+{{ end }}
+{{/* Sort by count descending */}}
+{{ $terms = sort $terms "count" "desc" }}
+
+{{/* Limit if count > 0 */}}
+{{ if gt $count 0 }}
+  {{ $terms = first $count $terms }}
+{{ end }}
+
+{{/* Find min and max counts for scaling */}}
+{{ $min_count := 1 }}
+{{ $max_count := 1 }}
+{{ range $terms }}
+  {{ if gt .count $max_count }}{{ $max_count = .count }}{{ end }}
+  {{ if lt .count $min_count }}{{ $min_count = .count }}{{ end }}
+{{ end }}
+
+<div class="py-8 px-4 sm:px-6 lg:px-8">
+  {{ with $title }}
+  <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">{{ . }}</h2>
+  {{ end }}
+
+  <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: baseline;">
+    {{ range $terms }}
+      {{ $term_count := .count }}
+      {{/* Scale font size between min and max based on count */}}
+      {{ $scale := 0.0 }}
+      {{ if gt $max_count $min_count }}
+        {{ $scale = div (sub (float $term_count) (float $min_count)) (sub (float $max_count) (float $min_count)) }}
+      {{ end }}
+      {{ $font_size := add $font_size_min (mul $scale (sub $font_size_max $font_size_min)) }}
+      <a href="{{ .url }}"
+         style="font-size: {{ $font_size }}rem; line-height: 1.4; color: #00539B; text-decoration: none;"
+         onmouseover="this.style.color='#B5B5B5'"
+         onmouseout="this.style.color='#00539B'">
+        {{ .title }}
+      </a>
+    {{ end }}
+  </div>
+</div>
