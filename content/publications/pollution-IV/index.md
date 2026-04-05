@@ -1,9 +1,8 @@
 ---
 title: "Smoggy Instruments: A Breath of Bias in Air Pollution Impact Studies"
-publication_types:
-  - "4"
+
 authors:
-  - admin
+  - me
   - Alex Chu Yu
   
 publication_types: ["working-paper"]
