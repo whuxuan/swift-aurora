@@ -18,11 +18,20 @@ body {
 
 .navbar-brand {
   font-size: 1.25rem;
-  margin-left: 2rem;
+  /*margin-left: 2rem;*/
 }
 
 /* Left-align collection titles on pages using citation view (research page) */
 section:has(.view-citation) .flex.flex-col.items-center.max-w-prose {
   align-items: flex-start;
   max-width: 64rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  section:has(.view-citation) .flex.flex-col.items-center.max-w-prose {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
