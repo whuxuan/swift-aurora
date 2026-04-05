@@ -2,8 +2,8 @@
 title: "Smoggy Instruments: A Breath of Bias in Air Pollution Impact Studies"
 
 authors:
-  - me
-  - Alex Chu Yu
+- me
+- Alex Chu Yu
   
 publication_types: ["working-paper"]
 publication: '*Working Paper*'
@@ -15,7 +15,7 @@ featured: false
 abstract:  
 
 tags:
-  - 
+- 
 
 # links:
 # - name: J-PAL Project
