@@ -23,46 +23,34 @@ sections:
     design:
       spacing:
         padding: ['3rem', '0', '1rem', '0']
-  - block: collection
+  - block: paper-list
     content:
       title: Working Papers
-      count: 0
-      text: ''
       filters:
         folders:
           - publications
         publication_type: working-paper
-        exclude_featured: false
     design:
-      view: citation
       spacing:
         padding: ['3rem', '0', '3rem', '0']
-  - block: collection
+  - block: paper-list
     content:
       title: Publications
-      count: 0
-      text: ''
       filters:
         folders:
           - publications
         publication_type: article-journal
-        exclude_featured: false
     design:
-      view: citation
       spacing:
         padding: ['3rem', '0', '3rem', '0']
-  - block: collection
+  - block: paper-list
     content:
       title: Works in Progress
-      count: 0
-      text: ''
       filters:
         folders:
           - publications
         publication_type: in-progress
-        exclude_featured: false
     design:
-      view: citation
       spacing:
         padding: ['3rem', '0', '3rem', '0']
 
