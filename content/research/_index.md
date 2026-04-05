@@ -14,7 +14,7 @@ sections:
     content:
       title: Topics
       taxonomy: tags
-      count: 0
+      count: 20
       font_size_min: 0.8
       font_size_max: 2.0
       filters:
