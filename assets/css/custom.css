@@ -2,12 +2,12 @@
   font-size: 1.1rem;
 }
 
-:not(nav) a:not(.nav-link):not(.navbar-brand) {
+:not(nav) a:not(.nav-link):not(.navbar-brand):not(.hb-attachment-link) {
   color: #00539B;
   text-decoration: none;
 }
 
-:not(nav) a:not(.nav-link):not(.navbar-brand):hover {
+:not(nav) a:not(.nav-link):not(.navbar-brand):not(.hb-attachment-link):hover {
   color: #B5B5B5;
   text-decoration: underline;
 }
