@@ -350,7 +350,7 @@
         {{ end }}
         {{ with $bio_content }}
         <div class="mb-12">
-          <div class="prose prose-lg dark:prose-invert max-w-none text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed [&_li]:my-0.5">
+          <div class="prose prose-lg dark:prose-invert max-w-none text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-normal [&_li]:my-0.5">
             <div class="bio-text" {{ if $bio_style }}{{ (printf "style=\"max-width:none;%s\"" $bio_style) | safeHTMLAttr }}{{ else }}style="max-width:none;"{{ end }}>
               {{ . }}
             </div>
