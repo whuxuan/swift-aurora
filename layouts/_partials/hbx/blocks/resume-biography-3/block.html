@@ -449,10 +449,10 @@
                   {{ if $institution }}
                     <p class="text-gray-700 dark:text-gray-300 text-xs">{{ $institution }}</p>
                   {{ end }}
-                  {{ $finishYear := "" }}
-                  {{ if $end }}{{ $finishYear = $end }}{{ else if $year }}{{ $finishYear = $year }}{{ end }}
-                  {{ if $finishYear }}
-                    <p class="text-gray-500 dark:text-gray-400 text-xs">{{ $finishYear }}</p>
+                  {{ if $start }}
+                    <p class="text-gray-500 dark:text-gray-400 text-xs">{{ $start }}{{ if $end }} - {{ $end }}{{ end }}</p>
+                  {{ else if $year }}
+                    <p class="text-gray-500 dark:text-gray-400 text-xs">{{ $year }}</p>
                   {{ end }}
                 </div>
               </div>
