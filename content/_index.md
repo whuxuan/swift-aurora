@@ -7,27 +7,40 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '1rem'
 
 sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
+      text: |-
+        I am an assistant professor in the [Department of Agricultural and Resource Economics](https://cals.ncsu.edu/agricultural-and-resource-economics/) at [North Carolina State University](https://www.ncsu.edu).
+
+        As an applied economist, my research spans environmental, energy, and development economics. The central theme of his work is to understand the impacts of climate change, environmental risks, and energy system transitions, as well as the roles of policy, technological change, and behavioral adaptation in addressing these challenges. My recent work focuses on:
+        * Energy transition, electrification, and policy designs for the net-zero emissions target
+        * Climate change mitigation, adaptation, and resilience
+        * Welfare impacts of technology upgrades and infrastructure investments in the electricity sector
+        * Information, risk perception, and household behavior
+
+        I received my Ph.D. in Environmental Economics from Duke University. Prior to Duke, I was a research associate at the Environmental Research Center of Duke Kunshan University. I received my B.A. in Economics and B.Sc. in Mathematics from Wuhan University.
+
+        The pronunciation of my name is similar to /Jen Sh-wen Wah-ng/. In Chinese, it is 王振轩.
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
-        interests: ''
+        interests: 'Research Interests'
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
+      spacing:
+        padding: ['0', '0', '0', '0']
 
       # Name heading sizing to accommodate long or short names
       name:
