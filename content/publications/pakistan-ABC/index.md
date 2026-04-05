@@ -20,7 +20,7 @@ date: "2025-10-01"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*American Economic Journal: Applied Economics"
+publication: "*American Economic Journal: Applied Economics*"
 publication_short: ""
 
 abstract: We study the effects of a technical intervention in Karachi, Pakistan --  converting bare distribution wires to aerial bundled cables (ABCs) -- that was intended to prevent illegal grid connections and improve utility cost recovery.  Theft-resistant cables reduced losses.  This occurred primarily through decreases in unbilled consumption, with the number of formal utility customers and their billed consumption both increasing.  Load shedding outages decreased. In areas with these cables installed, consumers have more appliances and higher electricity-related expenditures. Revenue recovery rose, but consumers' billing-related complaints also increased.
@@ -41,8 +41,8 @@ featured: false
 links:
   - type: pdf
     url: https://www.aeaweb.org/articles?id=10.1257/app.20230468
-  - type: Abstract
-    url: 'publication/pakistan-ABC/'
+  - name: Abstract
+    url: 'publications/pakistan-ABC/'
 
 
 # Featured image
