@@ -9,7 +9,7 @@ authors:
 
 publication_types: ["article-journal"]
 publication: '*Management Science, Accepted*'
-date: 2025-11-30
+date: 2026-02-01
 
 featured: false
 
