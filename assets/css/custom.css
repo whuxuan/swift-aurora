@@ -24,7 +24,5 @@ body {
 /* Left-align collection titles on pages using citation view (research page) */
 section:has(.view-citation) .flex.flex-col.items-center.max-w-prose {
   align-items: flex-start;
-  margin-left: 0;
-  margin-right: 0;
-  max-width: 100%;
+  max-width: 64rem;
 }
