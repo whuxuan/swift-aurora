@@ -389,6 +389,7 @@
           {{ end }}
         {{ end }}
 
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         {{/* Education Section */}}
         {{ $education_raw := $profile.education }}
         {{ $education := slice }}
@@ -409,7 +410,7 @@
                 {{ $education_heading = $education_heading_raw }}
               {{ end }}
             {{ end }}
-            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $education_heading | markdownify }}</h3>
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $education_heading | markdownify }}</h3>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {{ range $education }}
@@ -501,6 +502,7 @@
           </div>
         </div>
         {{ end }}
+        </div>
       </div>
     </div>
   </div>
