@@ -7,15 +7,15 @@ authors:
 - me
   
 publication_types: ["working-paper"]
-publication: '*Working Paper*'
-date: 2025-06-01
+publication: '*Journal of Environmental Economics and Management, Revised & Resubmitted*'
+date: 2026-02-01
 
 featured: false
 
 abstract:  
 
 tags:
-  - 
+- 
 
 
 ---
