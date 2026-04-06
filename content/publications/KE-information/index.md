@@ -24,7 +24,7 @@ abstract: Increased access to affordable and high-quality electricity services i
 links:
 - name: Abstract
   url: 'publications/KE-information'
-# - name: 'J-PAL Project'
-#   url: 'https://www.povertyactionlab.org/initiative-project/information-and-behavioral-approaches-increase-electricity-payment-and-reduce'
+- name: 'J-PAL Project'
+  url: 'https://www.povertyactionlab.org/initiative-project/information-and-behavioral-approaches-increase-electricity-payment-and-reduce'
 
 ---

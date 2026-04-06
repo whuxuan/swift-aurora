@@ -22,7 +22,7 @@ featured: false
 links:
 - name: Abstract
   url: 'publications/CDM/'
-- name: PDF 
+- type: pdf
   url: 'https://doi.org/10.1007/s10640-022-00697-8'
   
 ---
