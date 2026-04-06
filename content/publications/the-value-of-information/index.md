@@ -22,7 +22,7 @@ tags:
 links:
 - name: Abstract
   url: 'publications/the-value-of-information/'
-- type: PDF 
+- type: pdf
   url: 'https://doi.org/10.1016/j.jeem.2023.102865'
 - name: SSRN
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3796598'

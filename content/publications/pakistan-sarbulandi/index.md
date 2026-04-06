@@ -30,7 +30,7 @@ tags:
 links:
 - name: Abstract
   url: 'publication/pakistan-sarbulandi-qualitative/'
-- type: PDF
+- type: pdf
   url: 'https://doi.org/10.1016/j.jup.2024.101850'
 
 

@@ -24,7 +24,7 @@ tags:
 links:
 - name: Abstract
   url: 'publication/nepal-microhydro/'
-- type: PDF
+- type: pdf
   url: 'https://doi.org/10.1016/j.jeem.2024.103092'
 - name: SSRN
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3807316'
