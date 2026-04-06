@@ -45,6 +45,8 @@ links:
   url: 'publications/pakistan-ABC/'
 - type: pdf
   url: https://www.aeaweb.org/articles?id=10.1257/app.20230468
+- name: VoxDev
+  url: 'https://voxdev.org/topic/energy-environment/abcs-electricity-theft-can-anti-theft-cables-improve-electricity-service'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -23,7 +23,7 @@ tags:
 links:
 - name: Abstract
   url: 'publication/HSR/'
-- name: Link 
+- type: PDF
   url: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/jors.12635'
 - name: SSRN
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3511953'
