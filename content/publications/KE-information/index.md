@@ -11,7 +11,7 @@ authors:
 
 publication_types: ["in-progress"]
 publication:  
-date: 2024-08-01 
+date:  
 
 featured: false
 
@@ -22,7 +22,9 @@ tags:
 - 
 
 links:
-- name: 'J-PAL Project'
-  url: 'https://www.povertyactionlab.org/initiative-project/information-and-behavioral-approaches-increase-electricity-payment-and-reduce'
+- name: Abstract
+  url: 'publications/tree-discrimination'
+# - name: 'J-PAL Project'
+#   url: 'https://www.povertyactionlab.org/initiative-project/information-and-behavioral-approaches-increase-electricity-payment-and-reduce'
 
 ---
