@@ -9,7 +9,7 @@ authors:
 - Javed Younas
   
 
-publication_types: ["in-progress"]
+publication_types: ["working-paper"]
 publication:  
 date:  
 

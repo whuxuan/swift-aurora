@@ -21,9 +21,10 @@ tags:
 - Human Performance
 
 links:
-- name: PDF
-  url: 'https://www.journals.uchicago.edu/doi/10.1086/715509'
 - name: Abstract
   url: 'publications/heat-adaptation/'
+- name: PDF
+  url: 'https://www.journals.uchicago.edu/doi/10.1086/715509'
+
 
 ---

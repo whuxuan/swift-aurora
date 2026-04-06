@@ -18,8 +18,8 @@ abstract: Trees provide large positive externalities within neighborhoods, inclu
 # tags:
 #   - 
 
-# links:
-# - name: 
-#   url: ''
+links:
+- name: Abstract
+  url: 'publications/tree-discrimination'
 
 ---

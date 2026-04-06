@@ -20,11 +20,11 @@ tags:
 featured: false
 
 links:
-  - name: PDF 
-    url: 'https://doi.org/10.1007/s10640-022-00697-8'
-  - name: Abstract
-    url: 'publications/CDM/'
-
+- name: Abstract
+  url: 'publications/CDM/'
+- name: PDF 
+  url: 'https://doi.org/10.1007/s10640-022-00697-8'
+  
 ---
 
 **Media Coverage**: [新民晚报](https://wap.xinmin.cn/content/32228803.html) | [界面新闻](https://m.jiemian.com/article/8048403.html) | [中国环境](https://res.cenews.com.cn/h5/news.html?id=1003121).
