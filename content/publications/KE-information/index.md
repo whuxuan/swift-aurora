@@ -9,9 +9,9 @@ authors:
 - Javed Younas
   
 
-publication_types: ["working-paper"]
+publication_types: ["in-progress"]
 publication:  
-date:  
+date: 2024-08-01 
 
 featured: false
 
