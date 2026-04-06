@@ -30,9 +30,8 @@ tags:
 links:
 - name: Abstract
   url: 'publication/pakistan-sarbulandi-qualitative/'
-- name: Link
+- type: PDF
   url: 'https://doi.org/10.1016/j.jup.2024.101850'
-- name: EEG Working Paper
-  url: 'https://www.energyeconomicgrowth.org/publication/breaking-culture-non-payment-qualitative-analysis-utility-intervention-project'
+
 
 ---

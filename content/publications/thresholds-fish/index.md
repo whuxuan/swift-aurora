@@ -28,9 +28,8 @@ tags:
 
 
 links:
-- type: pdf
-  url: 'https://doi.org/10.1086/739342'
 - name: Abstract
   url: 'publications/thresholds-fish/'
-  
+- type: pdf
+  url: 'https://doi.org/10.1086/739342'  
 ---

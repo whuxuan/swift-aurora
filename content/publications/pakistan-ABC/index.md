@@ -41,11 +41,10 @@ featured: false
 #     arxiv: 1512.04133v1
 
 links:
-  - type: pdf
-    url: https://www.aeaweb.org/articles?id=10.1257/app.20230468
-  - name: Abstract
-    url: 'publications/pakistan-ABC/'
-
+- name: Abstract
+  url: 'publications/pakistan-ABC/'
+- type: pdf
+  url: https://www.aeaweb.org/articles?id=10.1257/app.20230468
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -66,7 +65,7 @@ links:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+# slides: ""
 ---
 <!-- 
 > [!NOTE]

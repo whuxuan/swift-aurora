@@ -22,7 +22,7 @@ tags:
 - 
 
 links:
-- name: J-PAL Project
+- name: 'J-PAL Project'
   url: 'https://www.povertyactionlab.org/initiative-project/information-and-behavioral-approaches-increase-electricity-payment-and-reduce'
 
 ---

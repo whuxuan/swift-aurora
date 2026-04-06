@@ -23,7 +23,7 @@ tags:
 - Co-pollutant Bias
 
 links:
-  - name: Abstract
-    url: 'publications/pollution-IV'
+- name: Abstract
+  url: 'publications/pollution-IV'
 
 ---

@@ -22,7 +22,7 @@ tags:
 links:
 - name: Abstract
   url: 'publication/lessons-carbon-market/'
-- name: Link 
+- type: pdf
   url: 'http://www.iaee.org/en/publications/eeeparticle.aspx?id=176'
 
 ---
