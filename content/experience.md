@@ -10,11 +10,13 @@ design:
 
 # Page sections
 sections:
+  - block: buttons
+    content: 
+      buttons:
+        - title: Download CV
+        - url: 'cv'
   - block: resume-experience
     content:
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
       username: me
     design:
       # Hugo date format
