@@ -11,10 +11,17 @@ design:
 # Page sections
 sections:
   - block: buttons
-    content: 
+    content:
       buttons:
-        - title: Download CV
-        - url: 'cv'
+        - title: Read my latest paper on LLMs
+          icon: brands/arxiv
+          url: https://arxiv.org/abs/2304.01852
+        - title: Watch my new YouTube video to achieve 20x productivity
+          icon: brands/youtube
+          url: https://youtube.com
+        - title: Connect with me on LinkedIn
+          icon: brands/linkedin
+          url: https://linkedin.com
   - block: resume-experience
     content:
       username: me
