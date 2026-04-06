@@ -10,6 +10,15 @@ design:
 
 # Page sections
 sections:
+  - block: cta-button-list
+    content:
+      buttons:
+        - text: Download CV
+          url: /uploads/resume.pdf
+          icon: hero/arrow-down-tray
+    design:
+      spacing:
+        padding: ['1rem', '0', '1rem', '0']
   - block: resume-experience
     content:
       username: me
