@@ -23,7 +23,7 @@ tags:
 links:
 - name: Abstract
   url: 'publications/heat-adaptation/'
-- name: PDF
+- name: pdf
   url: 'https://www.journals.uchicago.edu/doi/10.1086/715509'
 
 
